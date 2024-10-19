@@ -13,7 +13,6 @@ html {
 body {
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
-    height: 6000px;
 }
 
 /******************* Common *******************/
@@ -126,7 +125,8 @@ button {
     margin-top: 52px;
 }
 
-.content-block .action .get-started {
+.content-block .action .get-started,
+.banner .get-started {
     min-width: 186px;
     color: #fff;
     font-size: 1.8rem;
@@ -420,4 +420,214 @@ button {
 .courses-content .infomation p {
     display: flex;
     align-items: center;
+}
+
+/******************* Countdown *******************/
+.countdown {
+    padding: 265px 0;
+}
+
+.countdown .body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.countdown-item h1 {
+    color: #0d1111;
+    text-align: center;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 93px;
+}
+
+.countdown-item .desc {
+    color: #767e7e;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+/******************* Comment *******************/
+.comment {
+    padding-bottom: 130px;
+}
+
+.comment .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comment .comment-text {
+    width: 419px;
+}
+
+.comment .comment-text .desc {
+    margin-top: 27px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+}
+
+.comment .comment-text .name {
+    margin-top: 33px;
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.comment .comment-text .name strong {
+    font-weight: 500;
+    color: #070707;
+}
+
+.comment .action {
+    margin-top: 52px;
+}
+
+.comment .action button {
+    margin-right: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.comment .action button:hover {
+    opacity: 0.8;
+}
+
+.comment .comment-img {
+    position: relative;
+    width: 679px;
+}
+
+.comment-img .avatar-1 {
+    position: absolute;
+    top: 90px;
+    left: 270px;
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.comment-img .avatar-2 {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.comment-img .avatar-3 {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.comment-img .avatar-4,
+.comment-img .avatar-5,
+.comment-img .avatar-6 {
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.comment-img .avatar-4 {
+    position: absolute;
+    top: 230px;
+    left: 0;
+}
+
+.comment-img .avatar-5 {
+    position: absolute;
+    left: 200px;
+    bottom: 0;
+}
+
+.comment-img .avatar-6 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+/******************* Banner *******************/
+.banner {
+    padding: 76px 0 88px;
+    background: #def6f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-text h2 {
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 63px;
+}
+
+.banner-text .desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+/******************* Footer *******************/
+.footer {
+    padding: 131px 0 50px;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column .item {
+    margin-bottom: 20px;
+}
+
+.column .item a {
+    color: #535353;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.column .item strong {
+    color: #2e2e2e;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.column .list .item:nth-of-type(1) {
+    margin-bottom: 30px;
+}
+
+.column .item .footer-icon {
+    display: flex;
+    align-items: center;
+}
+
+.column .item .footer-icon span {
+    margin-left: 6px;
+}
+
+.footer .copy-right {
+    margin-top: 80px;
+    color: #b0b5b4;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 400;
 }
